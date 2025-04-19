@@ -1,0 +1,110 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.container {
+    flex-grow: 1;
+}
+
+.navbar {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand img {
+    margin-right: 10px;
+}
+
+.nav-link {
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.navbar .form-control {
+    border-radius: 20px;
+    background-color: #f0f0f0;
+    border: none;
+}
+
+.navbar .form-control:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.list-group {
+    max-height: 300px;
+    overflow-y: auto;
+    border: 2px solid #4CAF50;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #f9f9f9;
+}
+
+.list-group-item {
+    border: 2px solid #4CAF50;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: white !important;
+    background-color: #4CAF50 !important;
+    transition: transform 0.2s ease-in-out, background-color 0.2s ease-in-out;
+}
+
+.list-group-item:hover {
+    transform: scale(1.05);
+    background-color: #45a049 !important;
+    color: white !important;
+}
+
+.list-group-item a {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
+
+footer {
+    background-color: #DFFFD6;
+    padding: 20px;
+    box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1);
+}
+
+footer h5 {
+    font-weight: bold;
+    color: #4CAF50;
+}
+
+footer p {
+    font-size: 0.9rem;
+    line-height: 1.5;
+    color: #333;
+}
+
+footer img {
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+}
+
+footer img:hover {
+    transform: scale(1.2);
+}
+
+.img-fluid {
+    max-height: 100px;
+    margin-bottom: 10px;
+}
+
+
+.btn-primary {
+    background-color: #6A0DAD;
+    border: none;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.btn-primary:hover {
+    background-color: #5A0C9A;
+}
